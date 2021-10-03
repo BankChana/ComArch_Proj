@@ -1,0 +1,8 @@
+        lw  0   2   mcand       --32766
+        lw  0   3   mplier      --10383
+loop1:  add 3   3   1        
+        noop
+end	    halt				    end of program
+mcand   .fill   32766
+mplier  .fill   10383
+exit    .fill   32768           2^15bit
